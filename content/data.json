@@ -4,12 +4,7 @@
         "slogan": "Beta v3",
         "signin": {
             "label": "登录",
-            "to": "/sign/signin?action=signin&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
-            "target": "_blank"
-        },
-        "signup": {
-            "label": "注册",
-            "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+            "to": "/sign/signin?action=signin&client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost:3000/?aaa=xxx&state=state",
             "target": "_blank"
         },
         "navigations": [
@@ -40,15 +35,8 @@
         "background": "https://pic.rmb.bdstatic.com/bjh/3eeb272fee1/250705/12ff2aa5466412b3d8cdf33b7377354e.jpeg",
         "actions": [
             {
-                "label": "注册",
-                "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
-                "target": "_blank",
-                "icon": "i-heroicons-rocket-launch",
-                "size": "lg"
-            },
-            {
                 "label": "登录",
-                "to": "/sign/signin?action=signin&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                "to": "/sign/signin?action=signin&client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost:3000/?aaa=xxx&state=state",
                 "target": "_blank",
                 "icon": "i-heroicons-arrow-small-right",
                 "color": "gray",
@@ -154,7 +142,7 @@
         ]
     },
     "foot": {
-        "copyright": "呱呱",
+        "copyright": "IDNest",
         "navigations": [
             {
                 "title": "联系方式",
