@@ -12,9 +12,7 @@ const foot = data.foot
       {{ head.name }}
       <UBadge :label="head.slogan" variant="subtle" class="mb-0.5" />
     </template>
-    <template #right>
-      <UButton :label="head.signup.label" class="hidden md:block" :to="head.signup.to" :target="head.signup.target" />
-      <UButton :label="head.signin.label" class="hidden md:block" color="gray" :to="head.signin.to" :target="head.signup.target" />
+      <UButton :label="head.signin.label" class="hidden md:block" color="gray" :to="head.signin.to" :target="head.signin.target" />
     </template>
     <template #panel>
       <UNavigationTree :links="mapContentNavigation(head.navigations)" default-open :multiple="false" />
