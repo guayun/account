@@ -1,0 +1,28 @@
+.glass-card {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1
+}
+
+.glass-notice {
+    background-color: rgba(64, 158, 255, 0.3);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(64, 158, 255, 0.3);
+    z-index: 1
+}
+
+input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.3) inset !important;
+    -webkit-text-fill-color: #000 !important;
+    transition: background-color 5000s ease-in-out 0s
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    position: relative
+}

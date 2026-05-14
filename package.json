@@ -1,0 +1,32 @@
+{
+	"name": "gua-passport",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev --host",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@nuxt/content": "^2.13.4",
+		"@nuxt/ui": "^2.19.2",
+		"bcryptjs": "^3.0.2",
+		"crypto": "^1.0.1",
+		"gua-ui-pro": "^1.0.1",
+		"ioredis": "^5.6.1",
+		"jsonwebtoken": "^9.0.2",
+		"nodemailer": "^7.0.5",
+		"nuxt": "^3.14.1592",
+		"postgres": "^3.4.7",
+		"speakeasy": "^2.0.0",
+		"vue": "latest",
+		"vue-router": "latest",
+		"xml2js": "^0.6.2"
+	},
+	"devDependencies": {
+		"@ant-design-vue/nuxt": "^1.4.6",
+		"@vant/nuxt": "^1.0.7"
+	}
+}

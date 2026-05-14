@@ -1,0 +1,221 @@
+{
+    "head": {
+        "name": "IDNest",
+        "slogan": "Beta v3",
+        "signin": {
+            "label": "登录",
+            "to": "/sign/signin?action=signin&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+            "target": "_blank"
+        },
+        "signup": {
+            "label": "注册",
+            "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+            "target": "_blank"
+        },
+        "navigations": [
+            {
+                "label": "首页",
+                "to": "/"
+            },
+            {
+                "label": "博客",
+                "to": "/",
+                "target": "_blank"
+            },
+            {
+                "label": "文档",
+                "to": "/",
+                "target": "_blank"
+            },
+            {
+                "label": "呱呱网Plus",
+                "to": "https://guaplus.com",
+                "target": "_blank"
+            }
+        ]
+    },
+    "hero": {
+        "name": "IDNest",
+        "description": "让身份连接更加简单",
+        "background": "https://pic.rmb.bdstatic.com/bjh/3eeb272fee1/250705/12ff2aa5466412b3d8cdf33b7377354e.jpeg",
+        "actions": [
+            {
+                "label": "注册",
+                "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                "target": "_blank",
+                "icon": "i-heroicons-rocket-launch",
+                "size": "lg"
+            },
+            {
+                "label": "登录",
+                "to": "/sign/signin?action=signin&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                "target": "_blank",
+                "icon": "i-heroicons-arrow-small-right",
+                "color": "gray",
+                "size": "lg"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "title": "功能完善",
+            "description": "您可以在此查看您使用\"呱呱网Plus\"授权过哪些应用、查看登录日志、选择被授权的应用可以访问您的哪些信息以及修改您的信息",
+            "id": "features",
+            "align": "left",
+            "img": "https://b.bdstatic.com/comment/xS7A2WaA-Y7jGQXIlEUBVgb6fd550021ebb09167fb493e7561ccc2.png",
+            "features": [
+                {
+                    "name": "日志查看",
+                    "description": "查看您的账号是否有可疑登录和授权记录、查看应用对于您的账号有哪些行为",
+                    "icon": "i-heroicons-cog"
+                },
+                {
+                    "name": "资料修改",
+                    "description": "修改您的账号信息，如头像、昵称、密码等",
+                    "icon": "i-heroicons-check"
+                },
+                {
+                    "name": "隐私保护",
+                    "description": "自由选择展示哪些信息给被授权的应用",
+                    "icon": "i-heroicons-lock-closed"
+                }
+            ]
+        },
+        {
+            "title": "生态丰富",
+            "description": "我们鼓励更多开发者接入自己的网站/APP, 共同丰富\"呱呱网Plus\"体系, 为用户提供便捷的登录体验",
+            "align": "right",
+            "img": "https://b.bdstatic.com/comment/xS7A2WaA-Y7jGQXIlEUBVgc3daf9b14dc7847eb6e58105ace48212.png",
+            "features": [
+                {
+                    "name": "呱呱云推送",
+                    "description": "一个极简的推送API",
+                    "icon": "i-heroicons-rocket-launch"
+                },
+                {
+                    "name": "呱呱云监控",
+                    "description": "集成脚本定时任务和常规服务状态的监控",
+                    "icon": "i-heroicons-currency-dollar"
+                },
+                {
+                    "name": "呱呱云统计",
+                    "description": "网站、APP和小程序数据统计流量监测平台",
+                    "icon": "i-heroicons-chart-bar"
+                }
+            ]
+        }
+    ],
+    "features": {
+        "title": "为什么选择IDNest",
+        "description": "为用户和开发者带来统一、高效、安全的身份解决方案",
+        "items": [
+            {
+                "title": "单点登录",
+                "description": "原创\"GAuth\"技术，使用/接入更加简单。",
+                "icon": "i-heroicons-key"
+            },
+            {
+                "title": "访问权限控制",
+                "description": "自定义应用访问范围，实现用户隐私保障。",
+                "icon": "i-heroicons-shield-check"
+            },
+            {
+                "title": "应用模板集成",
+                "description": "快速集成常见系统，无需重复开发。",
+                "icon": "i-heroicons-currency-dollar"
+            },
+            {
+                "title": "多平台账号联动",
+                "description": "支持微信、抖音等社交账号绑定与导入。",
+                "icon": "i-heroicons-arrows-right-left"
+            },
+            {
+                "title": "完整账户生命周期",
+                "description": "从注册到注销，用户信息全程可控。",
+                "icon": "i-heroicons-user-circle"
+            },
+            {
+                "title": "多因子安全登录",
+                "description": "支持二次验证，保证账号安全。",
+                "icon": "i-heroicons-finger-print"
+            }
+        ]
+    },
+    "cta": {
+        "title": "即刻开启IDNest",
+        "description": "只需几步，即可接入强大身份服务体系，为你的用户提供最佳登录体验。",
+        "links": [
+            {
+                "label": "立即注册",
+                "size": "xl",
+                "color": "black",
+                "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state"
+            }
+        ]
+    },
+    "foot": {
+        "copyright": "呱呱",
+        "navigations": [
+            {
+                "title": "联系方式",
+                "navigations": [
+                    {
+                        "name": "QQ",
+                        "to": "/",
+                        "target": "_blank"
+                    },
+                    {
+                        "name": "微信",
+                        "to": "/",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "title": "产品列表",
+                "navigations": [
+                    {
+                        "name": "云服务器",
+                        "to": "/",
+                        "target": "_blank"
+                    },
+                    {
+                        "name": "内容分发网络",
+                        "to": "/",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "title": "快速入口",
+                "navigations": [
+                    {
+                        "name": "登录",
+                        "to": "/sign/signin?action=signin&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                        "target": "_blank"
+                    },
+                    {
+                        "name": "注册",
+                        "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                        "target": "_blank"
+                    }
+                ]
+            },
+            {
+                "title": "友情链接",
+                "navigations": [
+                    {
+                        "name": "呱呱的个人主页",
+                        "to": "https://guaplus.cn",
+                        "target": "_blank"
+                    },
+                    {
+                        "name": "呱呱网Plus",
+                        "to": "https://guaplus.com",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ]
+    }
+}
