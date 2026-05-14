@@ -5,7 +5,7 @@ definePageMeta({
   colorMode: 'system'
 })
 useSeoMeta({
-  titleTemplate: '%s - 呱呱云账号',
+  titleTemplate: '%s - IDNest',
   description: data.hero.description
 })
 useRouter().beforeEach(() => {
