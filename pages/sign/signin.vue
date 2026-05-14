@@ -244,6 +244,10 @@ async function wechatSignin() {
         message.error(res.message || '登录失败')
     }
 }
+
+function develop(){
+  message.error('努力开发中')
+}
 </script>
 
 <template>
@@ -299,54 +303,53 @@ async function wechatSignin() {
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/2bb9d04f6b677245cad2f62bce05d5c9.jpg" class="h-5 w-5 object-contain rounded" />
           <span>抖音</span>
         </NuxtLink>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/e6f4138cbbefeb310806e7fc6d8e1ead.jpg" class="h-5 w-5 object-contain rounded" />
           <span>QQ</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/00853fdf7fb75fb9d3a3446545a8f4a0.jpg" class="h-5 w-5 object-contain rounded" />
           <span>快手</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/450dd2941c1c214d32e0014457bdd154.jpg" class="h-5 w-5 object-contain rounded" />
           <span>微博</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/f66b7313dbeda6df39b10b6c6640a496.jpg" class="h-5 w-5 object-contain rounded" />
           <span>百度</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/f58d25541b7ceca94de86d9345981a4f.jpg" class="h-5 w-5 object-contain rounded" />
           <span>飞书</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/52af5c312edd64a951cf0442bbe6ee91.jpg" class="h-5 w-5 object-contain rounded" />
           <span>钉钉</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://www.huawei.com/-/media/hcomponent-header/1.0.1.20260424171441/component/img/huawei_logo.png" class="h-5 object-contain rounded" />
-
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/8f4077f45227811c7b405491d2442a87.jpg" class="h-5 w-5 object-contain rounded" />
           <span>支付宝</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/3219fa9f9b8fadadaf8afdafae798327.jpg" class="h-5 w-5 object-contain rounded" />
           <span>哔哩哔哩</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/9e777261b07962258e4c6775aedcf4b3.jpg" class="h-5 w-5 object-contain rounded" />
           <span>阿里云盘</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/95efa5afa5517c2644f7ac4f952237db.jpg" class="h-5 w-5 object-contain rounded" />
           <span>企业微信</span>
         </button>
-        <button type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
+        <button @click="develop()" type="button" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }">
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/logo-black.d4cfe066.svg" class="h-5 object-contain rounded" />
         </button>
-        <NuxtLink :to="config.public.GITHUB_OAUTH_URL" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }" >
+        <NuxtLink @click="develop()" class="inline-flex items-center justify-center gap-2 rounded-lg bg-white/40 hover:bg-white/20 px-3 py-2 text-sm leading-5" :style="{ color: `${application_info.data.text_color.light.color2}` }" >
           <img src="https://s3.hi168.com/hi168-25512-4716xkbi/website/account/aa0efae1efd61f871062a3176eefef86.jpg" class="h-5 w-5 object-contain rounded" />
           <span>Github</span>
         </NuxtLink>

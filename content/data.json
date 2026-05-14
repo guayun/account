@@ -4,7 +4,7 @@
         "slogan": "Beta v3",
         "signin": {
             "label": "登录",
-            "to": "/sign/signin?action=signin&client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost:3000/?aaa=xxx&state=state",
+            "to": "/sign/signin?client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost&state=state",
             "target": "_blank"
         },
         "navigations": [
@@ -36,7 +36,7 @@
         "actions": [
             {
                 "label": "登录",
-                "to": "/sign/signin?action=signin&client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost:3000/?aaa=xxx&state=state",
+                "to": "/sign/signin?client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost:3000/?aaa=xxx&state=state",
                 "target": "_blank",
                 "icon": "i-heroicons-arrow-small-right",
                 "color": "gray",
@@ -134,10 +134,10 @@
         "description": "只需几步，即可接入强大身份服务体系，为你的用户提供最佳登录体验。",
         "links": [
             {
-                "label": "立即注册",
+                "label": "立即登录",
                 "size": "xl",
                 "color": "black",
-                "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state"
+                "to": "/sign/signin?client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost&state=state"
             }
         ]
     },
@@ -179,12 +179,12 @@
                 "navigations": [
                     {
                         "name": "登录",
-                        "to": "/sign/signin?action=signin&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                        "to": "/sign/signin?client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost&state=state",
                         "target": "_blank"
                     },
                     {
                         "name": "注册",
-                        "to": "/sign/signin?action=signup&client_key=FWsMiyrFcfSK3Asy&redirect_uri=https://demo.guaplus.cc/aaa/ccc?aaa=xxx&state=state",
+                        "to": "/sign/signin?client_key=8NMA6XXH9P5JK52R&redirect_uri=http://localhost&state=state",
                         "target": "_blank"
                     }
                 ]
